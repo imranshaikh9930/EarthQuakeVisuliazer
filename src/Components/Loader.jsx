@@ -2,6 +2,8 @@ import React from 'react'
 
 const Loader = () => {
   return (
+    <div className="flex items-center justify-center w-[100%] h-[100%] mt-[160px] ">
+
     <div className="flex flex-col items-center justify-center">
   <div className="relative w-32 h-32 rounded-full bg-watercolor border-[3px] border-white overflow-hidden shadow-inner animate-startround">
     {/* 4 animated svg land pieces */}
@@ -55,6 +57,7 @@ const Loader = () => {
   </div>
   <p className="text-black text-lg font-semibold mt-3">Loading Recent EarchQuakes...</p>
 </div>
+    </div>
 
   )
 }
